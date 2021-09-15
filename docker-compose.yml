@@ -2,7 +2,7 @@ version: '3'
 services:
   php-apache:
     # build: .
-    image: php-mysqli
+    image: azman1204/php-mysqli
     ports: 
       - 8080:80
     volumes:
