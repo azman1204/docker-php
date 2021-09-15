@@ -5,7 +5,7 @@
 
 <?php
 // list task
-$conn = mysqli_connect('php-mysql_mysql_1', 'root', 'azman', 'testing') or die('Error connection');
+$conn = mysqli_connect('docker-php_mysql_1', 'root', 'azman', 'testing') or die('Error connection');
 $sql = "SELECT * FROM task";
 $rs = mysqli_query($conn, $sql);
 while($row = mysqli_fetch_array($rs)) {
